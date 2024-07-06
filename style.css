@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+
+}
+
+.main {
+    background-image: url("Assets/images/bg.jpg");
+    height: 100vh;
+    background-size: max(2000px, 120vw);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.main .box {
+
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: .69;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 76.5vw;
+    margin: auto;
+    position: relative;
+    height: 100px;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+    width: 9.25rem;
+    height: 2.5rem;
+    /* color: rgb(229, 9, 20); */
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.main .hero {
+    padding: 0 30px;
+    text-align: center;
+    height: calc(100% - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    gap: 23px;
+}
+
+.hero span:nth-child(1) {
+    font-size: 48px;
+
+}
+
+.hero span:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+
+
+}
+
+.hero span:nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(68, 68, 68);
+    position: relative;
+    z-index: 10;
+}
+
+.btn {
+    padding: 7px 6px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border: none;
+   
+}
+.eng-btn{
+    background-color:rgba(54, 54, 54, 0.473);
+    color: white;
+    font-weight: normal;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.63);
+    cursor: pointer;
+
+}
+.r-nav{
+    display: flex;
+    gap: 7px;
+}
+
+.btn-red {
+    background-color: rgb(229, 9, 20);
+    border-radius: 4px;
+    color: white;
+    padding: 10px 17px;
+    font-weight: 500;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.main input {
+   
+    padding: 14px 120px 14px 18px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    background-color:rgba(54, 54, 54, 0.233);
+    border: 1px solid rgba(255, 255, 255, 0.568);
+    border-radius: 4px;
+
+
+}
+/* .main input placeholder{
+    color: white;
+} */
+
+.btn-red-s {
+    background-color: rgb(229, 9, 20);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    padding: 0px 19px 0px 19px;
+    cursor: pointer;
+  
+    
+
+}
+.momo-btn{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    
+}
+.first{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+    justify-content: center;
+    padding-top:110px ;
+    padding-bottom: 110px;
+    
+
+
+}
+.tv{
+    position: relative;
+}
+.tv img{
+    width: 30vw;
+    position: relative;
+    z-index: 1;
+   
+}
+.tv video{
+    width: 25vw;
+   position: absolute;
+   top: 55px;
+   right: 13px;;
+   
+}
+
+.tex{
+    display: flex;
+    flex-direction: column;
+
+}
+.tex :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+}
+.tex :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+.none img{
+    border-radius: 4px;
+
+}
+
+
+.faq-titel{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+   
+}
+
+.faq .faq-btn button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding:  24px ;
+   max-width: 40vw ;
+   margin: 34px auto;
+   font-size: 24px;
+   font-weight: 400;
+   color: white;
+   background-color:#2d2d2d ;
+   /* hover color=#414141 */
+  
+
+}
