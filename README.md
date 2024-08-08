@@ -1,2 +1,2 @@
-# NETFLIX_UI-Project-1
+# Project-NETFLIX_UI
  netflix-ui-demo
