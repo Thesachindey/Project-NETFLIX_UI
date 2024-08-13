@@ -228,13 +228,47 @@ nav button {
     align-items: center;
     justify-content: space-between;
    padding:  24px ;
-   max-width: 40vw ;
+   width: 80vw ;
    margin: 34px auto;
    font-size: 24px;
    font-weight: 400;
    color: white;
    background-color:#2d2d2d ;
    /* hover color=#414141 */
+   cursor: pointer;
+   transition: all 1s ease-out;
   
 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.footer-link {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
 }
